@@ -1,0 +1,17 @@
+[project]
+name = "legalai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "langchain>=0.3.27",
+    "langchain-google-genai>=2.1.9",
+    "pinecone>=7.3.0",
+    "pinecone-client>=6.0.0",
+    "python-dotenv>=1.1.1",
+    "sse-starlette>=3.0.2",
+    "uvicorn>=0.35.0",
+]
