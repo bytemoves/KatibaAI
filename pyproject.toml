@@ -10,7 +10,6 @@ dependencies = [
     "langchain",
     "langchain-google-genai",
     "pinecone",
-    "pinecone-client",
     "python-dotenv",
     "sse-starlette",
     "uvicorn",
