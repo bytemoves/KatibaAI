@@ -22,10 +22,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-origins = [
-    "http://localhost:3000",   
-     # deployed frontend
-]
+origins = [o.strip() for o in os.getenv("ALLOWED_ORIGINS", "").split(",") if o]
 
 app.add_middleware(
     CORSMiddleware,
